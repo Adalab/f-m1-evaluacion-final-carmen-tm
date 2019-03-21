@@ -1,3 +1,11 @@
+.txt-prim {
+  font-family: "Roboto", sans-serif;
+}
+
+.txt-sec {
+  font-family: "Roboto Slab", serif;
+}
+
 .txt-reg {
   font-weight: 400;
 }
@@ -152,8 +160,14 @@ button {
   padding-bottom: 45px;
 }
 
-txt-1 {
-  font-family: "Roboto", sans-serif;
+.section-1 .title-box-cent {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .section-2 {

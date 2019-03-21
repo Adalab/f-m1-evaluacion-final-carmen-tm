@@ -1,15 +1,13 @@
-// Typography variables:
 
-// FONT FAMILIES:
-// Font for paragraphs, navs and smalls:
-$font-primary: 'Roboto', sans-serif;
-// tengo 2 pesos: regular y medium
 
-// Font for titles:
-$font-secundary: 'Roboto Slab', serif;
-// $font-secundary: 'RobotoSlab-Bold', serif;
-// tengo 1 peso: semibold
+//Classes for font-familyes:
+.txt-prim{
+    font-family: $font-primary;
+}
 
+.txt-sec{
+    font-family: $font-secundary;
+}
 
 // Classes for text weights:
 
@@ -168,6 +166,7 @@ $font-secundary: 'Roboto Slab', serif;
 .txt-capit{
     text-transform: capitalize;
 }
+
 
 // This is a variable of the default size of our website, that is called in the function @function rem($pixels)
 $defaultFontSize: 14;

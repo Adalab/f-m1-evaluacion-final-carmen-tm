@@ -2,8 +2,9 @@
     background-color: $color-neutral-0;
     padding-top: 30px;
     padding-bottom: 45px;
+
+    .title-box-cent{
+        @include title-box-cent();  
+    }
 }
 
-txt-1{
-    font-family: $font-primary;
-}
