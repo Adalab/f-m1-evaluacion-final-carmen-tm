@@ -26,4 +26,86 @@ button {
   background-color: green;
 }
 
+.txt-sm1 {
+  font-size: 14px;
+}
+
+.txt-sm2 {
+  font-size: 14px;
+}
+
+.txt-md1-p {
+  font-size: 16px;
+}
+
+.txt-md1-nav {
+  font-size: 16px;
+}
+
+.txt-md-p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.txt-md-h {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.txt-lg1 {
+  font-size: 20px;
+}
+
+.txt-lg2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.txt-xl {
+  font-size: 42px;
+  line-height: 55px;
+}
+
+@media (min-width: 768px) {
+  .txt-md1-p {
+    font-size: 24px;
+  }
+
+  .txt-md-p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .txt-md-h {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .txt-lg2 {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .txt-xl {
+    font-size: 80px;
+    line-height: 106px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .txt-sm1 {
+    font-size: 16px;
+  }
+
+  .txt-lg2 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .txt-xl {
+    font-size: 100px;
+    line-height: 132px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

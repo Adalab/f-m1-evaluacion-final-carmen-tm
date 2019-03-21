@@ -1,0 +1,108 @@
+// Typography variables:
+
+// FONT FAMILIES:
+// Font for titles:
+$font-secundary-1: 'Roboto Slab', serif;
+// tengo 1 peso: semibold
+
+// Font for paragraphs, navs and smalls:
+$font-primary-1-2: 'Roboto', sans-serif;
+// tengo 2 pesos: regular y medium
+
+
+// FONT SIZES:
+
+// // For small on s1
+.txt-sm1{
+    font-size: 14px;
+
+    @media (min-width: 1280px) {
+        font-size: 16px;
+    }
+}
+
+// For small on footer
+.txt-sm2{
+    font-size: 14px;
+}
+
+// For paragraph in the header:
+.txt-md1-p{
+    font-size: 16px;
+
+    @media (min-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+// For navs in footer:
+.txt-md1-nav{
+    font-size: 16px;
+}
+
+// For paragraphs (in s1 and s2)
+.txt-md-p{
+    font-size: 18px;
+    line-height: 30px;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+// For titles (in s2)
+.txt-md-h{
+    font-size: 18px;
+    line-height: 30px;
+
+    @media (min-width: 768px) {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+// For buttons
+.txt-lg1{
+    font-size: 20px;
+}
+
+// For h2
+.txt-lg2{
+    font-size: 24px;
+    line-height: 30px;
+
+    @media (min-width: 768px) {
+        font-size: 26px;
+        line-height: 45px;
+    }
+    
+    @media (min-width: 1280px) {
+        font-size: 32px;
+        line-height: 45px;
+    }
+}
+
+// For h1
+.txt-xl{
+    font-size: 42px;
+    line-height: 55px;
+    
+    @media (min-width: 768px) {
+        font-size: 80px;
+        line-height: 106px;
+    }
+    
+    @media (min-width: 1280px) {
+        font-size: 100px;
+        line-height: 132px;
+    }
+}
+
+
+
+
+
+
+// This is a variable of the default size of our website, that is called in the function @function rem($pixels)
+$defaultFontSize: 14;
