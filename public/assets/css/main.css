@@ -9,6 +9,11 @@ ul,ol {
   list-style: none;
 }
 
+button {
+  border: 0;
+  padding: 0;
+}
+
 .section-1 {
   background-color: grey;
 }

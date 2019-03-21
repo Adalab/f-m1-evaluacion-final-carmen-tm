@@ -5,8 +5,15 @@
     padding: 0;
 }
 
+// Reset default styles of lists:
 ul, ol{
     list-style: none;
+}
+
+// Reset default styles of buttons:
+button{
+    border: 0;
+    padding: 0;
 }
 
 // General settings:

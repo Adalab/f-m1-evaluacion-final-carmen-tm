@@ -1,0 +1,26 @@
+// Color variables:
+
+// I use weight fonts numbers (light>regular>bold)  as metaphor of colours (light>dark)
+$colorPrimary-400: #8ccbea;
+$colorPrimary-600: #0271bc;
+$colorPrimary-800: #304268;
+
+$colorSecondary-600: #f26002;
+
+$colorNeutral-0: #ffffff;
+$colorNeutral-1000: #000000;
+
+
+
+// Font variables:
+// Fuente de párrafos, navs y smalls:
+$fontPrimary-1-2: 'Roboto', sans-serif;
+// tengo 2 pesos: regular y medium
+
+$fontSecundary-1-2: 'Roboto Slab', serif;
+// tengo 1 peso: semibold
+
+
+
+// This is a variable of the default size of our website, that is called in the function @function rem($pixels)
+$defaultFontSize: 14;

@@ -1,0 +1,5 @@
+// Function to convert pixels into rem, in order to have a more fluid website:
+
+@function rem($pixels) {
+    @return ( $pixels * 1rem / $defaultFontSize );
+}
