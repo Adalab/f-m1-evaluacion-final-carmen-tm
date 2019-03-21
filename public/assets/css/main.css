@@ -66,6 +66,38 @@ button {
   line-height: 55px;
 }
 
+.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-primary-400 {
+  color: #8ccbea;
+}
+
+.txt-secondary-600 {
+  color: #f26002;
+}
+
+.txt-neutral-0 {
+  color: #ffffff;
+}
+
+.txt-neutral-800 {
+  color: #4a4a4a;
+}
+
+.txt-neutral-1000 {
+  color: #000000;
+}
+
 @media (min-width: 768px) {
   .txt-md1-p {
     font-size: 24px;

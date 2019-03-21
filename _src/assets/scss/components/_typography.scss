@@ -10,9 +10,9 @@ $font-primary-1-2: 'Roboto', sans-serif;
 // tengo 2 pesos: regular y medium
 
 
-// FONT SIZES:
+// Classes for text sizing:
 
-// // For small on s1
+// For small on s1
 .txt-sm1{
     font-size: 14px;
 
@@ -99,8 +99,49 @@ $font-primary-1-2: 'Roboto', sans-serif;
     }
 }
 
+// Classes for text alignment:
+.txt-center{
+    text-align: center;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-right{
+    text-align: right;
+}
 
 
+// Classes for colouring the text:
+
+// Text with primary/secondary bright colors:
+// Text blue:
+.txt-primary-400{
+    color: $color-primary-400;
+}
+
+// Text orange:
+.txt-secondary-600{
+    color: $color-secondary-600;
+}
+
+// Text with neutral colors (greyscale):
+
+// Text white:
+.txt-neutral-0{
+    color: $color-neutral-0;
+}
+
+// Text grey:
+.txt-neutral-800{
+    color: $color-neutral-800;
+}
+
+// Text black:
+.txt-neutral-1000{
+    color: $color-neutral-1000;
+}
 
 
 
