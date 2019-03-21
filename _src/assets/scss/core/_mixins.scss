@@ -1,4 +1,10 @@
-// Ejemplo
+// Mixins for common actions:
+@mixin flex-centered {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin title-box-cent {
     // display: inline-block;
     height: $title-box-height;
