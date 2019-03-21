@@ -186,7 +186,7 @@ body {
   background-color: green;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .txt-md1-p {
     font-size: 24px;
   }
@@ -212,7 +212,7 @@ body {
   }
 }
 
-@media (min-width: 1280px) {
+@media all and (min-width: 1280px) {
   .txt-sm1 {
     font-size: 16px;
   }
