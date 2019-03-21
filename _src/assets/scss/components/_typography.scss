@@ -144,6 +144,29 @@ $font-primary-1-2: 'Roboto', sans-serif;
 }
 
 
+// Classes for text weights:
+
+.regular{
+    font-weight: 400;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.semibold{
+    font-weight: 700;
+}
+
+
+// Classes for text-transform qualities:
+.upper{
+    text-transform: uppercase;
+}
+
+.capit{
+    text-transform: capitalize;
+}
 
 // This is a variable of the default size of our website, that is called in the function @function rem($pixels)
 $defaultFontSize: 14;

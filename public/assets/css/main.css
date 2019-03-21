@@ -98,6 +98,26 @@ button {
   color: #000000;
 }
 
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 700;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.capit {
+  text-transform: capitalize;
+}
+
 @media (min-width: 768px) {
   .txt-md1-p {
     font-size: 24px;
