@@ -1,11 +1,28 @@
+// Wrapper class to control general paddings
+// .wrapper{
+//     padding: 0px 15px;
+
+//     @media (min-width: 768px) {
+//         padding: 0px 39px;
+//     }
+
+//     @media (min-width: 1280px) {
+//         padding: 0px 275px;
+//     }
+// }
+
 .wrapper{
-    padding: 15px;
+    // padding-right: 15px;
+    // padding-left: 15px;
 
     @media (min-width: 768px) {
-        padding: 39px;
+        // padding-right: 39px;
+        // padding-left: 39px;
     }
 
     @media (min-width: 1280px) {
-        padding: 275px;
+        // padding-right: 275px;
+        // padding-left: 275px;
     }
 }
+

@@ -4,11 +4,13 @@
 
     // El hero tiene un gradiente!!
     background: url("../images/cover.jpg") center center no-repeat;
+
+    padding-top: 280px;
 }
 
 .main-title{
     font-family: $font-secundary;
-    margin-top: 284px;
+    // margin-top: 284px;
 }
 
 .main-subtitle{
