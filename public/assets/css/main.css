@@ -146,6 +146,16 @@ button {
   margin: 10px auto 45px;
 }
 
+.section-1 {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+txt-1 {
+  font-family: "Roboto", sans-serif;
+}
+
 .section-2 {
   background-color: pink;
 }
