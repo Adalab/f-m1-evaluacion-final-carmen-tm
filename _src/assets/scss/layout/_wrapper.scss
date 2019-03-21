@@ -1,0 +1,12 @@
+.wrapper{
+    // text-align: center;
+    padding: 15px;
+
+    @media (min-width: 768px) {
+        padding: 39px;
+    }
+
+    @media (min-width: 1280px) {
+        padding: 275px;
+    }
+}

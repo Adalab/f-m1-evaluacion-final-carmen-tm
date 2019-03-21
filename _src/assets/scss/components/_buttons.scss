@@ -1,0 +1,26 @@
+// Styles for buttons:
+
+.button-menu{
+    position: fixed;
+    background-color: $color-primary-600;
+    width: 44px;
+    height: 44px;
+}
+
+
+// Styles for links-icons:
+
+.icon-scroll-down{
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+
+    background-color: $color-neutral-0;
+    border-radius: 50%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,29 +1,13 @@
-*,*::after,*::before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.txt-reg {
+  font-weight: 400;
 }
 
-ul,ol {
-  list-style: none;
+.txt-med {
+  font-weight: 500;
 }
 
-button {
-  border: 0;
-  padding: 0;
-}
-
-.section-1 {
-  background-color: grey;
-}
-
-.section-2 {
-  background-color: pink;
-}
-
-.main-footer {
-  background-color: green;
+.txt-bold {
+  font-weight: 700;
 }
 
 .txt-sm1 {
@@ -98,24 +82,84 @@ button {
   color: #000000;
 }
 
-.regular {
-  font-weight: 400;
-}
-
-.medium {
-  font-weight: 500;
-}
-
-.semibold {
-  font-weight: 700;
-}
-
-.upper {
+.txt-upper {
   text-transform: uppercase;
 }
 
-.capit {
+.txt-capit {
   text-transform: capitalize;
+}
+
+.button-menu {
+  position: fixed;
+  background-color: #0271bc;
+  width: 44px;
+  height: 44px;
+}
+
+.icon-scroll-down {
+  margin: 0 auto;
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+*,*::after,*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+button {
+  border: 0;
+  padding: 0;
+}
+
+.main-header {
+  min-height: 100vh;
+  width: 100vw;
+  background: url("../images/cover.jpg") center center no-repeat;
+}
+
+.main-title {
+  font-family: "Roboto Slab", serif;
+  margin-top: 284px;
+}
+
+.main-subtitle {
+  font-family: "Roboto", sans-serif;
+  margin: 10px auto 45px;
+}
+
+.section-1 {
+  background-color: grey;
+}
+
+.section-2 {
+  background-color: pink;
+}
+
+.main-footer {
+  background-color: green;
+}
+
+.wrapper {
+  padding: 15px;
 }
 
 @media (min-width: 768px) {
@@ -142,6 +186,10 @@ button {
     font-size: 80px;
     line-height: 106px;
   }
+
+  .wrapper {
+    padding: 39px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -157,6 +205,10 @@ button {
   .txt-xl {
     font-size: 100px;
     line-height: 132px;
+  }
+
+  .wrapper {
+    padding: 275px;
   }
 }
 

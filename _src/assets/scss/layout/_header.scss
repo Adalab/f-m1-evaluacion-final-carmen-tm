@@ -1,3 +1,17 @@
 .main-header{
-    // background-color: yellow;
+    min-height: 100vh;
+    width: 100vw;
+
+    // El hero tiene un gradiente!!
+    background: url("../images/cover.jpg") center center no-repeat;
+}
+
+.main-title{
+    font-family: $font-secundary;
+    margin-top: 284px;
+}
+
+.main-subtitle{
+    font-family: $font-primary;
+    margin: 10px auto 45px;
 }

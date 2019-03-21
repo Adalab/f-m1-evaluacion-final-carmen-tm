@@ -7,7 +7,23 @@ $font-primary: 'Roboto', sans-serif;
 
 // Font for titles:
 $font-secundary: 'Roboto Slab', serif;
+// $font-secundary: 'RobotoSlab-Bold', serif;
 // tengo 1 peso: semibold
+
+
+// Classes for text weights:
+
+.txt-reg{
+    font-weight: 400;
+}
+
+.txt-med{
+    font-weight: 500;
+}
+
+.txt-bold{
+    font-weight: 700;
+}
 
 
 // Classes for text sizing:
@@ -144,27 +160,12 @@ $font-secundary: 'Roboto Slab', serif;
 }
 
 
-// Classes for text weights:
-
-.regular{
-    font-weight: 400;
-}
-
-.medium{
-    font-weight: 500;
-}
-
-.semibold{
-    font-weight: 700;
-}
-
-
 // Classes for text-transform qualities:
-.upper{
+.txt-upper{
     text-transform: uppercase;
 }
 
-.capit{
+.txt-capit{
     text-transform: capitalize;
 }
 
