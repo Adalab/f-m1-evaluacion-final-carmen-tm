@@ -2,10 +2,14 @@
     min-height: 100vh;
     width: 100vw;
 
-    // El hero tiene un gradiente!!
-    background: url("../images/cover.jpg") center center no-repeat;
+  
+    // Multiple backgrounds: a gradient and a hero image
+    background: 
+    linear-gradient(rgba(white, 0.1), black),
+    url("../images/cover.jpg") center center no-repeat;
 
-    padding-top: 284px;
+    background-size: cover;
+    // padding-top: 284px;
 }
 
 .main-title{
