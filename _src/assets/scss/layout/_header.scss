@@ -3,7 +3,7 @@
   
     // Multiple backgrounds: a gradient and a hero image
     background: 
-    linear-gradient(rgba(white, 0.1), black),
+    linear-gradient(rgba(white, 0.1), (rgba(black, 0.2))),
     url("../images/cover.jpg") center center no-repeat;
     background-size: cover;
 
@@ -25,6 +25,10 @@
     .main-subtitle{
         font-family: $font-primary;
         margin: 10px auto 45px;
+
+        @media all and (min-width: 768px) {
+            margin: 20px auto 30px;
+        }
 
         @media all and (min-width: 1280px) {
             margin: 10px auto 30px;

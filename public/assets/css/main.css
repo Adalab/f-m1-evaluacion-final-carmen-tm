@@ -189,8 +189,8 @@ body {
 
 .main-header {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(black)), url("../images/cover.jpg") center center no-repeat;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), black), url("../images/cover.jpg") center center no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(0, 0, 0, 0.2))), url("../images/cover.jpg") center center no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.2)), url("../images/cover.jpg") center center no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -336,16 +336,12 @@ body {
     width: 91px;
   }
 
-  .btn-light {
-    width: 160px;
-  }
-
   .btn-inv {
     width: 210px;
   }
 
-  .btn-inv {
-    width: 255px;
+  .main-header .main-subtitle {
+    margin: 20px auto 30px;
   }
 
   .section-1 {
@@ -453,6 +449,14 @@ body {
   .txt-xl {
     font-size: 100px;
     line-height: 132px;
+  }
+
+  .btn-light {
+    width: 160px;
+  }
+
+  .btn-inv {
+    width: 255px;
   }
 
   .main-header {
