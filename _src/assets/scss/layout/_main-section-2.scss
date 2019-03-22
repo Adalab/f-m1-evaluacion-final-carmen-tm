@@ -3,4 +3,16 @@
 
     padding-top: 30px;
     padding-bottom: 60px;
+
+    .grid-container{
+        width: 190px;
+        margin: 45px auto;
+
+        display: grid;
+        // grid-template-columns: 180px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+
+        grid-gap: 45px;
+    }
 }
