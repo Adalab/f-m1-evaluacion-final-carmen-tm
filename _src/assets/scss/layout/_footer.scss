@@ -96,44 +96,22 @@
     }
 }
 
-
-// @keyframes scroll-up{
-//     from{
-//         transform: translate(0 0);
-//         // transform: scale(1);
-//     }
-
-//     to{
-//         transform: translate(0 30px);
-//         // transform: scale(2);
-//     }
-// }
-
-
-
+// Add animation of movement on sroll-down button:
 @keyframes scroll-up {
     0% {
         transform: translate(-50%, -50%);
-        // top:0px;
     } 
 
-    50% {
-        transform: translate(-50%, -80%);
-        // top:50px;
-    }
-
     100% {
-        transform: translate(-50%, -50%);
-        // top:50px;
+        transform: translate(-50%, -80%);
     }
 }
 
-// Add animation on button:
+
 .btn-rel{
     animation-name: scroll-up;
+    // animation-delay: -3s; 
     animation-duration: 1.5s;
     animation-timing-function: ease-out;  
-    // animation-timing-function: ease-in-out;     
-    animation-delay: 1s; 
     animation-iteration-count: infinite;
 }

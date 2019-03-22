@@ -345,8 +345,6 @@ body {
   animation-duration: 1.5s;
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
@@ -532,14 +530,9 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  50% {
+  100% {
     -webkit-transform: translate(-50%, -80%);
     transform: translate(-50%, -80%);
-  }
-
-  100% {
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
   }
 }
 
@@ -549,14 +542,9 @@ body {
     transform: translate(-50%, -50%);
   }
 
-  50% {
+  100% {
     -webkit-transform: translate(-50%, -80%);
     transform: translate(-50%, -80%);
-  }
-
-  100% {
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
   }
 }
 
