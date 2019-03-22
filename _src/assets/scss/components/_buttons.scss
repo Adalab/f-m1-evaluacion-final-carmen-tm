@@ -84,9 +84,11 @@
 
 // Add transition to text-buttons (change both the shape and its content):
 .btn-light, .btn-light .txt-lg1{
-    transition: all ease 0.7s;
+    transition: background-color ease 0.7s;
+    transition: color ease 0.7s;
 }
 
 .btn-inv, .btn-inv .txt-lg1{
-    transition: all ease 0.7s;
+    transition: background-color ease 0.7s;
+    transition: color ease 0.7s;
 }
