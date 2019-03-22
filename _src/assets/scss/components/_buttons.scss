@@ -12,27 +12,42 @@
 // Styles for txt-buttons:
 // General rules for text-buttons
 .btn{
-    margin: 0 auto;
     height: 45px;
 }
 
 .btn-icon{
     width: 45px;
+    margin: 0 auto;
     background-color: $color-neutral-0;
     border-radius: 50%;
     @include flex-centered;
 }
 
 .btn-txt{
-    width: 76px;
-    background-color: $color-neutral-0;
-    border-radius: 25px;
-    border: 2px solid $color-secondary-600;
-    @include flex-centered;
 
-    
+    // padding: 0 30px;
+    border-radius: 25px;
+    @include flex-centered;
 }
 
+
+.btn-light{
+    // a lo mejor no es ancho, sino padding
+    width: 76px;
+    // margin es algo raro para botones..
+    margin: 0 auto;
+    background-color: $color-neutral-0;
+    border: 2px solid $color-secondary-600;
+}
+
+
+.btn-inv{
+    // a lo mejor no es ancho, sino padding
+    width: 184px;
+    // margin es algo raro para botones..
+    margin: 0 auto;
+    background-color: $color-secondary-600;
+}
 
 
 // ...
