@@ -1,9 +1,7 @@
 .main-footer{
     background-color: $color-primary-800;
-
     padding-top: 60px;
     padding-bottom: 45px;
-
     position: relative;
 
     .flex-container{
@@ -17,12 +15,6 @@
         @media all and (min-width: 1280px) {
             padding-left: 95px;
             padding-right: 95px;
-        }
-
-        .item-3{
-            @media all and (min-width: 768px) {
-                order: -1;
-            }
         }
 
         .item-1, .item-2, .item-3{
@@ -44,6 +36,12 @@
                 margin: 0 auto;
             }
         }
+
+        .item-3{
+            @media all and (min-width: 768px) {
+                order: -1;
+            }
+        }
     }
 
     .main-footer__button{
@@ -51,18 +49,7 @@
         top: 0px;
     }
 
-    // mejor clase de child etc pero no funciona
-    // .flex-container{
-    //     &:nth-child(2){
-    .item-2{
-        @media all and (min-width: 768px) {
-            margin-top: 0;
-        }
-    }
-
-    // mejor clase de childs
     .footer-copyright, .footer-claim{
-        // display: block;
         @include title-box-cent;
         justify-content: center;
 
@@ -95,7 +82,7 @@
     }
 }
 
-// Add animation of movement on sroll-down button:
+// Add simple animation of movement on sroll-down button:
 @keyframes scroll-up {
     0% {
         transform: translate(-50%, -50%);
@@ -108,7 +95,6 @@
 
 .main-footer__button{
     animation-name: scroll-up;
-    // animation-delay: -3s; 
     animation-duration: 1.5s;
     animation-timing-function: ease-out;  
     animation-iteration-count: infinite;

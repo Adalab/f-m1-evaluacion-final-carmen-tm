@@ -429,12 +429,6 @@ body {
     align-items: flex-start;
   }
 
-  .main-footer .flex-container .item-3 {
-    -webkit-box-ordinal-group: 0;
-    -ms-flex-order: -1;
-    order: -1;
-  }
-
   .main-footer .flex-container .item-1,.main-footer .flex-container .item-2,.main-footer .flex-container .item-3 {
     width: 210px;
   }
@@ -447,8 +441,10 @@ body {
     margin: 0 auto;
   }
 
-  .main-footer .item-2 {
-    margin-top: 0;
+  .main-footer .flex-container .item-3 {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
   }
 
   .main-footer .item-3 .txt-sm2 {
