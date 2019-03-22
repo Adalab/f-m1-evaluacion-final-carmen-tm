@@ -2,6 +2,10 @@
     padding-top: 30px;
     padding-bottom: 45px;
 
+    @media all and (min-width: 768px) {
+        padding-bottom: 60px;
+    }
+
     // Repalce for a better selector
     a{
        margin-left: 0px;
@@ -15,11 +19,19 @@
     // Title section:
     .txt-lg2{
         margin-bottom: 15px;
+
+        @media all and (min-width: 768px) {
+            margin-bottom: 30px;
+        }
     }
 
     // Paragraphof section:
     .txt-md-p{
         margin-bottom: 15px;
+
+        @media all and (min-width: 768px) {
+            margin-bottom: 30px;
+        }
     }
 }
 

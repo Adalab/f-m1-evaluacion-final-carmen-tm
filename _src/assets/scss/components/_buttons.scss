@@ -40,6 +40,10 @@
     width: 76px;
     background-color: $color-neutral-0;
     border: 2px solid $color-secondary-600;
+
+    @media all and (min-width: 768px) {
+        width: 91px;
+    }
 }
 
 

@@ -312,11 +312,6 @@ body {
     font-size: 24px;
   }
 
-  .txt-md-p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
   .txt-md-h {
     font-size: 24px;
     line-height: 30px;
@@ -330,6 +325,22 @@ body {
   .txt-xl {
     font-size: 80px;
     line-height: 106px;
+  }
+
+  .btn-light {
+    width: 91px;
+  }
+
+  .section-1 {
+    padding-bottom: 60px;
+  }
+
+  .section-1 .txt-lg2 {
+    margin-bottom: 30px;
+  }
+
+  .section-1 .txt-md-p {
+    margin-bottom: 30px;
   }
 
   .wrapper {
