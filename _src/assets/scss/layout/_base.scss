@@ -3,6 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    // border:0.1px solid pink;
 }
 
 // Reset default styles of lists:
@@ -14,6 +16,11 @@ ul, ol{
 button{
     border: 0;
     padding: 0;
+}
+
+// Reset defualt styles for links:
+a{
+    text-decoration: none;
 }
 
 // General settings:

@@ -23,6 +23,16 @@
     @include flex-centered;
 }
 
+.btn-txt{
+    width: 76px;
+    background-color: $color-neutral-0;
+    border-radius: 25px;
+    border: 2px solid $color-secondary-600;
+    @include flex-centered;
+
+    
+}
+
 
 
 // ...
