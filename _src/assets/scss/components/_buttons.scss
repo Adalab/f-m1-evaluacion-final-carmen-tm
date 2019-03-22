@@ -23,6 +23,12 @@
     @include flex-centered;
 }
 
+// One button has shadow on it
+.btn-shadow{
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
 .btn-txt{
 
     // padding: 0 30px;
