@@ -70,10 +70,10 @@
         @include title-box-cent;
         justify-content: center;
 
-        // Add margin to give some air around the heart on the claim:
-        
+        // Add margin to give some air around the heart on the claim. I need to convert the span display in block first!
         .heart{
-            margin: auto 4px;
+            display: block;
+            padding: 0 4px;
         }
     }
 

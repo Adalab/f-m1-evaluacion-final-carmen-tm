@@ -290,7 +290,8 @@ body {
 }
 
 .main-footer .footer-copyright .heart,.main-footer .footer-claim .heart {
-  margin: auto 4px;
+  display: block;
+  padding: 0 4px;
 }
 
 .main-footer .nav-pages li,.main-footer .nav-social-media li {
