@@ -12,11 +12,11 @@
 // Styles for txt-buttons:
 // General rules for text-buttons
 .btn{
-    height: 45px;
+    height: $button-height;
 }
 
 .btn-icon{
-    width: 45px;
+    width: $button-height;
     margin: 0 auto;
     background-color: $color-neutral-0;
     border-radius: 50%;

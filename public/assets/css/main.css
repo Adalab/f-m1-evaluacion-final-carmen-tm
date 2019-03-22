@@ -186,6 +186,7 @@ a {
 
 body {
   background-color: #ffffff;
+  overflow: hidden;
 }
 
 .main-header {
@@ -194,14 +195,24 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(black)), url("../images/cover.jpg") center center no-repeat;
   background: linear-gradient(rgba(255, 255, 255, 0.1), black), url("../images/cover.jpg") center center no-repeat;
   background-size: cover;
-  padding-top: 284px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-bottom: 45px;
 }
 
-.main-title {
+.main-header .main-title {
   font-family: "Roboto Slab", serif;
 }
 
-.main-subtitle {
+.main-header .main-subtitle {
   font-family: "Roboto", sans-serif;
   margin: 10px auto 45px;
 }
