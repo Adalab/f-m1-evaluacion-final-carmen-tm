@@ -4,6 +4,24 @@
     padding-top: 60px;
     padding-bottom: 45px;
 
+    position: relative;
+
+    // temporal
+    .btn-rel{
+        position: absolute;
+        left: 50%;
+        // top: -30px;
+        top: -20px;
+
+        @include transform-center;
+    }
+
+    // mejor clase de child etc
+    .item-2{
+        margin: 30px auto;
+    }
+
+    // mejor clase de childs
     .footer-copyright, .footer-claim{
         // display: block;
         @include title-box-cent;

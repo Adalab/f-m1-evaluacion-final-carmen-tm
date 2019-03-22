@@ -211,17 +211,6 @@ body {
   padding-bottom: 45px;
 }
 
-.section-1 .title-box-cent {
-  display: inline-block;
-  height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .section-2 {
   background-color: #eff9ff;
   padding-top: 30px;
@@ -232,10 +221,22 @@ body {
   background-color: #304268;
   padding-top: 60px;
   padding-bottom: 45px;
+  position: relative;
+}
+
+.main-footer .btn-rel {
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  -webkit-transform: translate(-50%, 0.5%);
+  transform: translate(-50%, 0.5%);
+}
+
+.main-footer .item-2 {
+  margin: 30px auto;
 }
 
 .main-footer .footer-copyright,.main-footer .footer-claim {
-  display: inline-block;
   height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -3,7 +3,9 @@
     padding-bottom: 45px;
 
     .title-box-cent{
-        @include title-box-cent();  
+        // @include title-box-cent();  
+        // justify-content: flex-start;
+        // no funciona
     }
 }
 

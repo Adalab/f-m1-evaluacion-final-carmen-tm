@@ -6,9 +6,14 @@
 }
 
 @mixin title-box-cent {
-    display: inline-block;
+    // display: inline-block;
     height: $title-box-height;
 
     display: flex;
+    // justify-content: flex-start;
     align-items: center;
+}
+
+@mixin transform-center{
+    transform: translate(-50%, .50%);
 }
