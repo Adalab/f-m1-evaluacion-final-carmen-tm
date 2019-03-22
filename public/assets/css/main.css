@@ -156,10 +156,37 @@
   border: 2px solid #f26002;
 }
 
+.btn-light:hover {
+  background-color: #f26002;
+}
+
+.btn-light:hover .txt-lg1 {
+  color: #ffffff;
+}
+
 .btn-inv {
   width: 184px;
   margin: 0 auto;
   background-color: #f26002;
+  border: 2px solid #f26002;
+}
+
+.btn-inv:hover {
+  background-color: #ffffff;
+}
+
+.btn-inv:hover .txt-lg1 {
+  color: #f26002;
+}
+
+.btn-light,.btn-light .txt-lg1 {
+  -webkit-transition: all ease 0.7s;
+  transition: all ease 0.7s;
+}
+
+.btn-inv,.btn-inv .txt-lg1 {
+  -webkit-transition: all ease 0.7s;
+  transition: all ease 0.7s;
 }
 
 *,*::after,*::before {

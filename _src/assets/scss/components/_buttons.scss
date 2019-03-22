@@ -48,12 +48,21 @@
     @media all and (min-width: 1280px) {
         width: 160px;
     }
+
+    // Add hover behaviour for buttons:
+    &:hover{
+        background-color: $color-secondary-600;
+        & .txt-lg1{
+            color: $color-neutral-0;
+        }
+    }
 }
 
 .btn-inv{
     width: 184px;
     margin: 0 auto;
     background-color: $color-secondary-600;
+    border: 2px solid $color-secondary-600;
 
     @media all and (min-width: 768px) {
         width: 210px;
@@ -62,6 +71,23 @@
     @media all and (min-width: 1280px) {
         width: 255px;
     }
+
+    // Add hover behaviour for buttons:
+    &:hover{
+        background-color: $color-neutral-0;
+
+        & .txt-lg1{
+            color: $color-secondary-600;
+        }
+    }
 }
 
 
+// Add transition to button (both the shape and its content):
+.btn-light, .btn-light .txt-lg1{
+    transition: all ease 0.7s;
+}
+
+.btn-inv, .btn-inv .txt-lg1{
+    transition: all ease 0.7s;
+}
