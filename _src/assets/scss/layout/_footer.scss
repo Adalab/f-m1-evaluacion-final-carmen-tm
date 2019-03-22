@@ -6,6 +6,11 @@
 
     position: relative;
 
+    // @media all and (min-width: 1280px) {
+    //     padding-left: 370px;
+    //     padding-right: 370px;
+    // }
+
 
     .flex-container{
         @media all and (min-width: 768px) {
@@ -13,6 +18,11 @@
             flex-flow: row;
             justify-content: space-between;
             align-items: flex-start;
+        }
+
+        @media all and (min-width: 1280px) {
+            padding-left: 95px;
+            padding-right: 95px;
         }
 
         .item-3{

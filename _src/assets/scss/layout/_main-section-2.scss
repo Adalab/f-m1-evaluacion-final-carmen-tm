@@ -4,6 +4,13 @@
     padding-top: 30px;
     padding-bottom: 60px;
 
+    @media all and (min-width: 768px) {
+        padding-top: 60px;
+        
+        padding-left: 81.2px;
+        padding-right: 81.2px;
+    }
+
     .grid-container{
         width: 190px;
         margin: 45px auto;

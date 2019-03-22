@@ -327,8 +327,16 @@ body {
     width: 91px;
   }
 
+  .btn-light {
+    width: 160px;
+  }
+
   .btn-inv {
     width: 210px;
+  }
+
+  .btn-inv {
+    width: 255px;
   }
 
   .section-1 {
@@ -341,6 +349,12 @@ body {
 
   .section-1 .txt-md-p {
     margin-bottom: 30px;
+  }
+
+  .section-2 {
+    padding-top: 60px;
+    padding-left: 81.2px;
+    padding-right: 81.2px;
   }
 
   .section-2 .grid-container {
@@ -426,6 +440,23 @@ body {
   .txt-xl {
     font-size: 100px;
     line-height: 132px;
+  }
+
+  .main-header {
+    padding-bottom: 22.5px;
+  }
+
+  .main-header .main-subtitle {
+    margin: 10px auto 30px;
+  }
+
+  .section-1 {
+    padding-top: 60px;
+  }
+
+  .main-footer .flex-container {
+    padding-left: 95px;
+    padding-right: 95px;
   }
 
   .wrapper {
