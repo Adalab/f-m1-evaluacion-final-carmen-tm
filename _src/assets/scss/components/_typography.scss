@@ -167,6 +167,10 @@
     text-transform: capitalize;
 }
 
+.txt-low{
+    text-transform: lowercase;
+}
+
 
 // This is a variable of the default size of our website, that is called in the function @function rem($pixels)
 $defaultFontSize: 14;
