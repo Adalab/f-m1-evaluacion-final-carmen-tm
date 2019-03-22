@@ -173,6 +173,7 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(black)), url("../images/cover.jpg") center center no-repeat;
   background: linear-gradient(rgba(255, 255, 255, 0.1), black), url("../images/cover.jpg") center center no-repeat;
   background-size: cover;
+  padding-top: 284px;
 }
 
 .main-title {
@@ -200,7 +201,9 @@ body {
 }
 
 .section-2 {
-  background-color: pink;
+  background-color: #eff9ff;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 .main-footer {
