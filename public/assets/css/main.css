@@ -262,6 +262,11 @@ body {
   justify-content: center;
 }
 
+.wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 @media all and (min-width: 768px) {
   .txt-md1-p {
     font-size: 24px;
@@ -286,6 +291,11 @@ body {
     font-size: 80px;
     line-height: 106px;
   }
+
+  .wrapper {
+    padding-right: 39px;
+    padding-left: 39px;
+  }
 }
 
 @media all and (min-width: 1280px) {
@@ -301,6 +311,11 @@ body {
   .txt-xl {
     font-size: 100px;
     line-height: 132px;
+  }
+
+  .wrapper {
+    padding-right: 275px;
+    padding-left: 275px;
   }
 }
 
