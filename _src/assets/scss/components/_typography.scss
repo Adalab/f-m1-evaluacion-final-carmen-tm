@@ -1,6 +1,4 @@
-
-
-//Classes for font-familyes:
+//Classes by font-family:
 .txt-prim{
     font-family: $font-primary;
 }
@@ -10,7 +8,6 @@
 }
 
 // Classes for text weights:
-
 .txt-reg{
     font-weight: 400;
 }
@@ -23,13 +20,10 @@
     font-weight: 700;
 }
 
-
 // Classes for text sizing:
-
 // For small on s1
 .txt-sm1{
     font-size: 14px;
-
     @media all and (min-width: 1280px) {
         font-size: 16px;
     }
@@ -43,7 +37,6 @@
 // For paragraph in the header:
 .txt-md1-p{
     font-size: 16px;
-
     @media all and (min-width: 768px) {
         font-size: 24px;
     }
@@ -58,11 +51,6 @@
 .txt-md-p{
     font-size: 18px;
     line-height: 30px;
-
-    // @media all and (min-width: 768px) {
-    //     font-size: 20px;
-    //     line-height: 30px;
-    // }
 }
 
 // For titles (in s2)
@@ -126,10 +114,10 @@
     text-align: right;
 }
 
-
 // Classes for colouring the text:
 
-// Text with primary/secondary bright colors:
+// A. Text with primary/secondary bright colors:
+
 // Text blue:
 .txt-primary-400{
     color: $color-primary-400;
@@ -140,7 +128,7 @@
     color: $color-secondary-600;
 }
 
-// Text with neutral colors (greyscale):
+// B. Text with neutral colors (greyscale):
 
 // Text white:
 .txt-neutral-0{
@@ -157,7 +145,6 @@
     color: $color-neutral-1000;
 }
 
-
 // Classes for text-transform qualities:
 .txt-upper{
     text-transform: uppercase;
@@ -170,7 +157,6 @@
 .txt-low{
     text-transform: lowercase;
 }
-
 
 // This is a variable of the default size of our website, that is called in the function @function rem($pixels)
 $defaultFontSize: 14;
