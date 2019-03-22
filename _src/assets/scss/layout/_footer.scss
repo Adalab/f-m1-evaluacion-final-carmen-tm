@@ -16,10 +16,13 @@
         @include transform-center;
     }
 
-    // mejor clase de child etc
+    // mejor clase de child etc pero no funciona
+    // .flex-container{
+    //     &:nth-child(2){
     .item-2{
         margin: 30px auto;
     }
+
 
     // mejor clase de childs
     .footer-copyright, .footer-claim{
@@ -27,4 +30,12 @@
         @include title-box-cent;
         justify-content: center;
     }
+
+    .nav-pages, .nav-social-media{
+        li {
+            height: $title-box-height;
+            @include flex-centered;
+        }
+    }
+    
 }
