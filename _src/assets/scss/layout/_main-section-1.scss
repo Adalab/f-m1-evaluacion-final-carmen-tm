@@ -2,10 +2,24 @@
     padding-top: 30px;
     padding-bottom: 45px;
 
+    // Repalce for a better selector
     a{
        margin-left: 0px;
     }
 
+    .title-box-cent{
+        @include title-box-cent;
+        margin-bottom: 1px;
+    }
 
+    // Title section:
+    .txt-lg2{
+        margin-bottom: 15px;
+    }
+
+    // Paragraphof section:
+    .txt-md-p{
+        margin-bottom: 15px;
+    }
 }
 

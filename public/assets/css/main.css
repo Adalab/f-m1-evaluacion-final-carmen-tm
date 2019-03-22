@@ -224,6 +224,25 @@ body {
   margin-left: 0px;
 }
 
+.section-1 .title-box-cent {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.section-1 .txt-lg2 {
+  margin-bottom: 15px;
+}
+
+.section-1 .txt-md-p {
+  margin-bottom: 15px;
+}
+
 .section-2 {
   background-color: #eff9ff;
   padding-top: 30px;
