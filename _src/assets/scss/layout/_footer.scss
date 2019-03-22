@@ -6,12 +6,6 @@
 
     position: relative;
 
-    // @media all and (min-width: 1280px) {
-    //     padding-left: 370px;
-    //     padding-right: 370px;
-    // }
-
-
     .flex-container{
         @media all and (min-width: 768px) {
             display: flex;
@@ -42,6 +36,14 @@
                 margin: 0 30px;
             }
         }
+
+        .item-2{
+            margin: 30px auto;
+
+            @media all and (min-width: 768px) {
+                margin: 0 auto;
+            }
+        }
     }
 
     .btn-rel{
@@ -67,6 +69,12 @@
         // display: block;
         @include title-box-cent;
         justify-content: center;
+
+        // Add margin to give some air around the heart on the claim:
+        
+        .heart{
+            margin: auto 4px;
+        }
     }
 
     .item-3{
