@@ -152,7 +152,6 @@
 
 .btn-light {
   width: 76px;
-  margin: 0 auto;
   background-color: #ffffff;
   border: 2px solid #f26002;
 }
@@ -186,7 +185,6 @@ a {
 
 body {
   background-color: #ffffff;
-  overflow: hidden;
 }
 
 .main-header {
@@ -220,6 +218,10 @@ body {
 .section-1 {
   padding-top: 30px;
   padding-bottom: 45px;
+}
+
+.section-1 a {
+  margin-left: 0px;
 }
 
 .section-2 {
