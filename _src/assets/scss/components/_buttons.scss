@@ -6,8 +6,8 @@
     top: 0px;
     left: 0px;
     background-color: $color-primary-600;
-    width: 44px;
-    height: 44px;
+    width: $button-height - 1px;
+    height: $button-height - 1px;
 }
 
 // General rules for all icon and text buttons:
@@ -32,22 +32,36 @@
 
 // Common rules of text buttons (with text content):
 .btn-txt{
-    border-radius: 25px;
-    @include flex-centered;
-}
+    // This is for make the width of the button flexible to all diferent text-contents
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 25px;
+    padding-right: 25px;
 
-.btn-light{
-    width: 76px;
-    background-color: $color-neutral-0;
-    border: 2px solid $color-secondary-600;
+    border: $button-border solid $color-secondary-600;
+    border-radius: 25px;
 
     @media all and (min-width: 768px) {
-        width: 91px;
+        padding-left: 33.5px;
+        padding-right: 33.5px;
     }
 
     @media all and (min-width: 1280px) {
-        width: 160px;
+        padding-left: 68px;
+        padding-right: 68px;
     }
+
+    span {
+        display: inline-block;
+        line-height: $button-height - $button-border;
+        vertical-align: middle;
+    }
+}
+
+
+.btn-light{
+    background-color: $color-neutral-0;
+    border: 2px solid $color-secondary-600;
 
     // Add hover behaviour for buttons:
     &:hover{
@@ -59,18 +73,8 @@
 }
 
 .btn-inv{
-    width: 184px;
-    margin: 0 auto;
     background-color: $color-secondary-600;
     border: 2px solid $color-secondary-600;
-
-    @media all and (min-width: 768px) {
-        width: 210px;
-    }
-
-    @media all and (min-width: 1280px) {
-        width: 255px;
-    }
 
     // Add hover behaviour for buttons:
     &:hover{

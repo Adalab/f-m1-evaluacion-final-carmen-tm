@@ -138,20 +138,21 @@
 }
 
 .btn-txt {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 2px solid #f26002;
   border-radius: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+}
+
+.btn-txt span {
+  display: inline-block;
+  line-height: 43px;
+  vertical-align: middle;
 }
 
 .btn-light {
-  width: 76px;
   background-color: #ffffff;
   border: 2px solid #f26002;
 }
@@ -165,8 +166,6 @@
 }
 
 .btn-inv {
-  width: 184px;
-  margin: 0 auto;
   background-color: #f26002;
   border: 2px solid #f26002;
 }
@@ -374,12 +373,9 @@ body {
     line-height: 106px;
   }
 
-  .btn-light {
-    width: 91px;
-  }
-
-  .btn-inv {
-    width: 210px;
+  .btn-txt {
+    padding-left: 33.5px;
+    padding-right: 33.5px;
   }
 
   .main-header .main-subtitle {
@@ -493,12 +489,9 @@ body {
     line-height: 132px;
   }
 
-  .btn-light {
-    width: 160px;
-  }
-
-  .btn-inv {
-    width: 255px;
+  .btn-txt {
+    padding-left: 68px;
+    padding-right: 68px;
   }
 
   .main-header {
