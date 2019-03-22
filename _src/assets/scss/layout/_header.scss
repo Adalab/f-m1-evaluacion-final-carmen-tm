@@ -1,13 +1,13 @@
 .main-header{
     min-height: 100vh;
   
-    // Multiple backgrounds: a gradient and a hero image
+    // Multiple backgrounds: a gradient + a hero image
     background: 
     linear-gradient(rgba(white, 0.1), (rgba(black, 0.2))),
     url("../images/cover.jpg") center center no-repeat;
     background-size: cover;
 
-    // Perform to achieve a more fluid layout and perform well in portrait mobile :
+    // Perform to achieve a more fluid layout and perform well in Portrait mobile :
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -17,23 +17,21 @@
     @media all and (min-width: 1280px) {
         padding-bottom: $button-height/2;
     }
-    
-    .main-title{
-        font-family: $font-secundary;
-    }
-    
-    .main-subtitle{
-        font-family: $font-primary;
-        margin: 10px auto 45px;
-
-        @media all and (min-width: 768px) {
-            margin: 20px auto 30px;
-        }
-
-        @media all and (min-width: 1280px) {
-            margin: 10px auto 30px;
-        }
-    }
 }
 
+.main-title{
+    font-family: $font-secundary;
+}
 
+.main-subtitle{
+    font-family: $font-primary;
+    margin: 10px auto 45px;
+
+    @media all and (min-width: 768px) {
+        margin: 20px auto 30px;
+    }
+
+    @media all and (min-width: 1280px) {
+        margin: 10px auto 30px;
+    }
+}

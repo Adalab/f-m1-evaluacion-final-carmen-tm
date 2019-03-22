@@ -46,7 +46,7 @@
         }
     }
 
-    .btn-rel{
+    .main-footer__button{
         @include center-button;
         top: 0px;
     }
@@ -59,7 +59,6 @@
             margin-top: 0;
         }
     }
-
 
     // mejor clase de childs
     .footer-copyright, .footer-claim{
@@ -107,8 +106,7 @@
     }
 }
 
-
-.btn-rel{
+.main-footer__button{
     animation-name: scroll-up;
     // animation-delay: -3s; 
     animation-duration: 1.5s;

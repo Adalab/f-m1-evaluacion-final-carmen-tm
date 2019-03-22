@@ -102,7 +102,7 @@
   text-transform: lowercase;
 }
 
-.button-menu {
+.main-header__button {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -132,7 +132,7 @@
 }
 
 .btn-shadow {
- /* offset-x | offset-y | blur-radius | spread-radius | color */
+ /* Reminder: offset-x | offset-y | blur-radius | spread-radius | color */
   -webkit-box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.5);
 }
@@ -235,11 +235,11 @@ body {
   padding-bottom: 45px;
 }
 
-.main-header .main-title {
+.main-title {
   font-family: "Roboto Slab", serif;
 }
 
-.main-header .main-subtitle {
+.main-subtitle {
   font-family: "Roboto", sans-serif;
   margin: 10px auto 45px;
 }
@@ -299,7 +299,7 @@ body {
   margin: 30px auto;
 }
 
-.main-footer .btn-rel {
+.main-footer .main-footer__button {
   left: 50%;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
@@ -338,7 +338,7 @@ body {
   align-items: center;
 }
 
-.btn-rel {
+.main-footer__button {
   -webkit-animation-name: scroll-up;
   animation-name: scroll-up;
   -webkit-animation-duration: 1.5s;
@@ -379,7 +379,7 @@ body {
     padding-right: 33.5px;
   }
 
-  .main-header .main-subtitle {
+  .main-subtitle {
     margin: 20px auto 30px;
   }
 
@@ -499,7 +499,7 @@ body {
     padding-bottom: 22.5px;
   }
 
-  .main-header .main-subtitle {
+  .main-subtitle {
     margin: 10px auto 30px;
   }
 

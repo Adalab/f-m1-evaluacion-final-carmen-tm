@@ -1,7 +1,7 @@
 // Styles for buttons:
 
 // Style for Home button:
-.button-menu{
+.main-header__button{
     position: fixed;
     top: 0px;
     left: 0px;
@@ -26,13 +26,13 @@
 
 // Shadow style from one button:
 .btn-shadow{
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    /* Reminder: offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
 // Common rules of text buttons (with text content):
 .btn-txt{
-    // This is for make the width of the button flexible to all diferent text-contents
+    // This rules are for make the width of the button flexible and variable to all diferent text-contents:
     display: inline-block;
     vertical-align: middle;
     padding-left: 25px;
@@ -51,13 +51,13 @@
         padding-right: 68px;
     }
 
+    // Text content inside the buttons:
     span {
         display: inline-block;
         line-height: $button-height - $button-border;
         vertical-align: middle;
     }
 }
-
 
 .btn-light{
     background-color: $color-neutral-0;
@@ -85,6 +85,7 @@
         }
     }
 }
+
 
 // Add transition to text-buttons (change both the shape and its content):
 .btn-light, .btn-light .txt-lg1{
