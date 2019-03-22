@@ -331,6 +331,10 @@ body {
     width: 91px;
   }
 
+  .btn-inv {
+    width: 210px;
+  }
+
   .section-1 {
     padding-bottom: 60px;
   }
@@ -341,6 +345,18 @@ body {
 
   .section-1 .txt-md-p {
     margin-bottom: 30px;
+  }
+
+  .section-2 .grid-container {
+    width: 100%;
+    margin-bottom: 60px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 27.7px;
+  }
+
+  .section-2 .grid-container .txt-md-h {
+    margin-bottom: 14px;
   }
 
   .wrapper {
