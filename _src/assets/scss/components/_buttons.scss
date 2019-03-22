@@ -1,4 +1,6 @@
 // Styles for buttons:
+
+// Style for Home button:
 .button-menu{
     position: fixed;
     top: 0px;
@@ -8,13 +10,12 @@
     height: 44px;
 }
 
-
-// Styles for txt-buttons:
-// General rules for text-buttons
+// General rules for all icon and text buttons:
 .btn{
     height: $button-height;
 }
 
+// Common rules of icon buttons (arrows):
 .btn-icon{
     width: $button-height;
     margin: 0 auto;
@@ -23,18 +24,17 @@
     @include flex-centered;
 }
 
-// One button has shadow on it
+// Shadow style from one button:
 .btn-shadow{
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
+// Common rules of text buttons (with text content):
 .btn-txt{
     border-radius: 25px;
     @include flex-centered;
-
 }
-
 
 .btn-light{
     width: 76px;
@@ -82,8 +82,7 @@
     }
 }
 
-
-// Add transition to button (both the shape and its content):
+// Add transition to text-buttons (change both the shape and its content):
 .btn-light, .btn-light .txt-lg1{
     transition: all ease 0.7s;
 }

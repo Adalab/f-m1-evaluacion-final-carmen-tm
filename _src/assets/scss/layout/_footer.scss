@@ -98,3 +98,26 @@
         }
     }
 }
+
+
+
+// Add animation on button:
+
+.btn-rel{
+    animation-name: scroll-up;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes scroll-up{
+    from{
+        // transform: translate(0 0);
+        transform: scale(1);
+    }
+
+    to{
+        // transform: translate(0 30px);
+        transform: scale(2);
+    }
+}

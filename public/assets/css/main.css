@@ -334,6 +334,15 @@ body {
   align-items: center;
 }
 
+.btn-rel {
+  -webkit-animation-name: scroll-up;
+  animation-name: scroll-up;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 .wrapper {
   padding-right: 15px;
   padding-left: 15px;
@@ -506,6 +515,30 @@ body {
   .wrapper {
     padding-right: 275px;
     padding-left: 275px;
+  }
+}
+
+@-webkit-keyframes scroll-up {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  to {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+}
+
+@keyframes scroll-up {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  to {
+    -webkit-transform: scale(2);
+    transform: scale(2);
   }
 }
 
