@@ -27,3 +27,6 @@ $title-box-height: 30px;
 //Height of all buttons and some paddigns:
 $button-height: 45px;
 $button-border: 2px;
+
+// This is a variable of the default size of our website, that is called in the function @function rem($pixels)
+$defaultFontSize: 14;

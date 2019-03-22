@@ -20,83 +20,100 @@
     font-weight: 700;
 }
 
+
 // Classes for text sizing:
 // For small on s1
 .txt-sm1{
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: rem(14);
     @media all and (min-width: 1280px) {
-        font-size: 16px;
+        // font-size: 16px;
+        font-size: rem(16);
     }
 }
 
 // For small on footer
 .txt-sm2{
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: rem(14);
 }
 
 // For paragraph in the header:
 .txt-md1-p{
-    font-size: 16px;
+    // font-size: 16px;
+    font-size: rem(16);
     @media all and (min-width: 768px) {
-        font-size: 24px;
+        // font-size: 24px;
+        font-size: rem(24);
     }
 }
 
 // For navs in footer:
 .txt-md1-nav{
-    font-size: 16px;
+    // font-size: 16px;
+    font-size: rem(16);
 }
 
 // For paragraphs (in s1 and s2)
 .txt-md-p{
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: rem(18);
     line-height: 30px;
 }
 
 // For titles (in s2)
 .txt-md-h{
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: rem(18);
     line-height: 30px;
 
     @media all and (min-width: 768px) {
-        font-size: 24px;
+        // font-size: 24px;
+        font-size: rem(24);
         line-height: 30px;
     }
 }
 
 // For buttons
 .txt-lg1{
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: rem(20);
 }
 
 // For h2
 .txt-lg2{
-    font-size: 24px;
+    // font-size: 24px;
+    font-size: rem(24);
     line-height: 30px;
 
     @media all and (min-width: 768px) {
-        font-size: 26px;
+        // font-size: 26px;
+        font-size: rem(26);
         line-height: 45px;
     }
     
     @media all and (min-width: 1280px) {
-        font-size: 32px;
+        // font-size: 32px;
+        font-size: rem(32);
         line-height: 45px;
     }
 }
 
 // For h1
 .txt-xl{
-    font-size: 42px;
+    // font-size: 42px;
+    font-size: rem(42);
     line-height: 55px;
     
     @media all and (min-width: 768px) {
-        font-size: 80px;
+        // font-size: 80px;
+        font-size: rem(80);
         line-height: 106px;
     }
     
     @media all and (min-width: 1280px) {
-        font-size: 100px;
+        // font-size: 100px;
+        font-size: rem(100);
         line-height: 132px;
     }
 }
@@ -157,6 +174,3 @@
 .txt-low{
     text-transform: lowercase;
 }
-
-// This is a variable of the default size of our website, that is called in the function @function rem($pixels)
-$defaultFontSize: 14;
