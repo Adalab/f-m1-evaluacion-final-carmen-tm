@@ -10,11 +10,6 @@
         padding-top: 60px;
     }
 
-    // Repalce for a better selector
-    a{
-       margin-left: 0px;
-    }
-
     .title-box-cent{
         @include title-box-cent;
         margin-bottom: 1px;

@@ -1,86 +1,84 @@
+// Footer styles:
 .main-footer{
     background-color: $color-primary-800;
     padding-top: 60px;
     padding-bottom: 45px;
     position: relative;
+}
 
-    .flex-container{
-        @media all and (min-width: 768px) {
-            display: flex;
-            flex-flow: row;
-            justify-content: space-between;
-            align-items: flex-start;
-        }
-
-        @media all and (min-width: 1280px) {
-            padding-left: 95px;
-            padding-right: 95px;
-        }
-
-        .item-1, .item-2, .item-3{
-            @media all and (min-width: 768px) {
-                width: 210px;
-            }
-        }
-
-        .item-1{
-            @media all and (min-width: 768px) {
-                margin: 0 30px;
-            }
-        }
-
-        .item-2{
-            margin: 30px auto;
-
-            @media all and (min-width: 768px) {
-                margin: 0 auto;
-            }
-        }
-
-        .item-3{
-            @media all and (min-width: 768px) {
-                order: -1;
-            }
-        }
+.flex-container{
+    @media all and (min-width: 768px) {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
-    .main-footer__button{
-        @include center-button;
-        top: 0px;
-    }
-
-    .footer-copyright, .footer-claim{
-        @include title-box-cent;
-        justify-content: center;
-
-        // Add margin to give some air around the heart on the claim. I need to convert the span display in block first!
-        .heart{
-            display: block;
-            padding: 0 4px;
-        }
-    }
-
-    .item-3{
-        .txt-sm2{
-            @media all and (min-width: 768px) {
-                display: flex;
-                justify-content: flex-start;
-            }
-        }
-    }
-
-    .nav-pages, .nav-social-media{
-        li {
-            height: $title-box-height;
-            @include flex-centered;
-
-            @media all and (min-width: 768px) {
-                display: flex;
-                justify-content: flex-start;
-            }
-        }
+    @media all and (min-width: 1280px) {
+        padding-left: 95px;
+        padding-right: 95px;
     }
 }
+
+.item-1, .item-2, .item-3{
+    @media all and (min-width: 768px) {
+        width: 210px;
+    }
+}
+
+.item-1{
+    @media all and (min-width: 768px) {
+        margin: 0 30px;
+    }
+}
+
+.item-2{
+    margin: 30px auto;
+
+    @media all and (min-width: 768px) {
+        margin: 0 auto;
+    }
+}
+
+.item-3{
+    .txt-sm2{
+        @media all and (min-width: 768px) {
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+
+    @media all and (min-width: 768px) {
+        order: -1;
+    }
+}
+
+.main-footer__button{
+    @include center-button;
+    top: 0px;
+}
+
+.footer-copyright, .footer-claim{
+    @include title-box-cent;
+    justify-content: center;
+
+    // Add margin to give some air around the heart on the claim. I need to convert the span display in block first!
+    .heart{
+        display: block;
+        padding: 0 4px;
+    }
+}
+
+.social-media__item, .nav-pages__item  {
+    height: $title-box-height;
+    @include flex-centered;
+
+    @media all and (min-width: 768px) {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
 
 // Add simple animation of movement on sroll-down button:
 @keyframes scroll-up {
