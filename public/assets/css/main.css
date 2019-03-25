@@ -284,6 +284,15 @@ body {
   grid-gap: 45px;
 }
 
+.special-offert {
+  background-color: #f26002;
+  padding: 30px 0 45px;
+}
+
+.title-offert {
+  margin-bottom: 10px;
+}
+
 .main-footer {
   background-color: #304268;
   padding-top: 60px;
@@ -409,6 +418,12 @@ body {
     margin-bottom: 14px;
   }
 
+  .flex-container-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
   .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -507,6 +522,12 @@ body {
   .wrapper {
     padding-right: 275px;
     padding-left: 275px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .special-offert {
+    display: none;
   }
 }
 

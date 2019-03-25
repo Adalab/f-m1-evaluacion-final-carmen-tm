@@ -1,0 +1,20 @@
+// Clase general
+.special-offert{
+    background-color: $color-secondary-600;
+    padding: 30px 0 45px;
+
+    @media all and (max-width:767px){
+        display: none;
+    }
+}
+
+.title-offert{
+    margin-bottom: 10px;
+}
+
+.flex-container-title{
+    @media all and (min-width: 768px){
+        display: flex;
+        // justify-content: 
+    }
+}
